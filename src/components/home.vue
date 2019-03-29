@@ -9,6 +9,11 @@
       <li class="nav-item">音频</li>
       <li class="nav-item">聊天</li>
     </ul>
+    <div>
+      <input type="text" class="ajax-input">
+      
+      <button class="ajax-btn">点击我发起请求</button>
+    </div>
   </div>
 </template>
 
