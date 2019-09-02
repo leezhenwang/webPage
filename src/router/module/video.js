@@ -1,4 +1,4 @@
-const videoList = () => import('../../components/video/videoList.vue');
+const videoList = () => import('../../pages/video/videoList.vue');
 export default [
   {
     path: '/videoList',

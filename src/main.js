@@ -45,6 +45,8 @@ import  { ToastPlugin } from 'vux'
 Vue.use(ToastPlugin,{type: 'text',position: 'middle'})
 //不使用插件时，全局注册
 import { PopupPicker } from 'vux'
+//引入整个icons,
+import './icons'
 Vue.component('popup-picker', PopupPicker)
 /* eslint-disable no-new */
 new Vue({

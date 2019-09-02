@@ -1,4 +1,4 @@
-const home = () => import('../../components/home.vue');
+const home = () => import('../../pages/home.vue');
 export default [
   {
       path: '/home',

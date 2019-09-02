@@ -7,7 +7,7 @@
       <li class="nav-item">图片</li>
       <li class="nav-item" @click="goVideoList">视频</li>
       <li class="nav-item">音频</li>
-      <li class="nav-item">聊天</li>
+      <li class="nav-item" :style="{'background': `url(${require('../assets/images/blogIndex/bird.jpg')})`}">聊天</li>
     </ul>
     <div>
       <input type="text" class="ajax-input">
