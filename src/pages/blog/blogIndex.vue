@@ -1,18 +1,13 @@
 <template>
-  <div class="blog-index-container">
-    <div class="welcome-container">
-      <p class="studio-txt">欢迎来到<span class="hignt-light">栖鸟工作室</span></p>
-      <p class="developer-txt">我是站长<span class="hignt-light">栖枝鸟</span></p>
-    </div>
-    <nav class="nav-container">
-      <div class="nav-item">
-        <svg-icon icon-class="todo-list" size="10"></svg-icon>
-        规划事项
-      </div>
-      <div class="nav-item">vue爬坑之旅</div>
-      <div class="nav-item">node爬坑之旅</div>
-    </nav>
-  </div>
+  <ul class="blogIndex-sort">
+    <li class="sort-item">js</li>
+    <li class="sort-item">html</li>
+    <li class="sort-item">css</li>
+    <li class="sort-item">vue</li>
+    <li class="sort-item">react</li>
+    <li class="sort-item">node</li>
+    <li class="sort-item" @click="goGameList">game</li>
+  </ul>
 </template>
 
 <script>
@@ -36,7 +31,11 @@
       
     },
     methods: {
-      
+      goGameList(){
+        this.$router.push({
+          name: 'gameList',
+        })
+      },
     }
   }
 </script>

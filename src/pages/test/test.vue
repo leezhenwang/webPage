@@ -11,7 +11,7 @@
     </ul>
     <div>
       <input type="text" class="ajax-input">
-      
+      <svg-icon icon-class="todo-list" size="10"></svg-icon>
       <button class="ajax-btn">点击我发起请求</button>
     </div>
   </div>
@@ -115,5 +115,5 @@
   }
 </script>
 <style lang='scss'>
-  @import '../assets/sass/home/home.scss'; 
+  @import '../assets/sass/test/test.scss'; 
 </style>
